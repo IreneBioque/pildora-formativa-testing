@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Compiled output
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build output
+*.tgz
+*.zip
+*.tar.gz
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Miscellaneous
+*.pid
+*.seed
+*.gz
+*.cache
