@@ -10,7 +10,6 @@ export class CreateBookUseCase {
     price: number
   ): Promise<Book> {
     const book = new Book(id, title, author, price);
-    await this.bookRepository.save(book);
-    return book;
+    return await this.bookRepository.save(book);
   }
 }

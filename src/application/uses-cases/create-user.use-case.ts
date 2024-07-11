@@ -6,7 +6,6 @@ export class CreateUserUseCase {
 
   async execute(id: string, name: string, email: string): Promise<User> {
     const user = new User(id, name, email);
-    await this.userRepository.save(user);
-    return user;
+    return await this.userRepository.save(user);
   }
 }
